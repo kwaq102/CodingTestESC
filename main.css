@@ -1,5 +1,4 @@
 .main {
-	/* displa */
 	display: flex;
 	gap: 200px;
 	margin-top: -780px;
@@ -77,7 +76,7 @@
 
 .main__aside__signs-bottom {
 	bottom: 0;
-	left: -160px;
+	left: -245px;
 }
 
 /* CIRCLES IN ASIDE */

@@ -6,6 +6,7 @@
 		<title>Fiskasy.pl - test kodowania</title>
 
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="main.css" />
 		<script
 			src="https://kit.fontawesome.com/0ef49ab5e4.js"
 			crossorigin="anonymous"
@@ -15,11 +16,11 @@
 	<body>
 		<header class="header">
 			<div class="header__wrapper">
-				<div class="header__cirlce-top circle"></div>
-				<div class="header__cirlce-mid circle">
-					<p class="header__cirlce-mid__text">cena netto 1429,00 zł</p>
+				<div class="header__circle-top circle"></div>
+				<div class="header__circle-mid circle">
+					<p class="header__circle-mid__text">cena netto 1429,00 zł</p>
 				</div>
-				<div class="header__cirlce-top-black circle"></div>
+				<div class="header__circle-top-black circle circle-black"></div>
 				<nav class="header__nav container">
 					<div class="header__nav__wrapper ">
 						<button class="header__burger">BURGER</button>
@@ -116,7 +117,7 @@
 					</div>
 
 					<div class="header__center">
-						<div class="header__center-bg"></div>
+						<div class="header__center-bg circle-blue-bg"></div>
 
 						<div class="header__center__signs-left signs">
 							<img class="sign__icon sum" src="/img/aak.png"></img>
@@ -156,9 +157,9 @@
 							>
 							<a class="header__center__link" href="#">Porównaj</a>
 						</div>
-						<button class="header_button header_button--left btn">
+						<button class="header__button--left btn-arrow arrow-left btn">
 						</button>
-						<button class="header_button header_button--right btn">
+						<button class="header__button--right btn-arrow arrow-right btn">
 						</button>
 					</div>
 
@@ -171,9 +172,74 @@
 				</div>
 			</div>
 		</header>
-		<main class="main">
+		<main class="main container">
+			<aside class="main__aside">
+				<div class="main__sings main__aside__signs-top signs">
+					<img class="sign__icon sum" src="/img/aak.png"></img>
+					<img class="sign__icon subtraction" src="/img/aai.png"></img>
+					<img class="sign__icon divide" src="/img/aag.png"></img>
+				</div>
+
+				<div class="main__sings main__aside__signs-mid signs">
+					<img class="sign__icon sum" src="/img/aak.png"></img>
+					<img class="sign__icon subtraction" src="/img/aai.png"></img>
+					<img class="sign__icon multiplication" src="/img/aam.png"></img>
+					<img class="sign__icon divide" src="/img/aag.png"></img>
+				</div>
+
+				<div class="main__sings main__aside__signs-bottom signs">
+					<img class="sign__icon sum" src="/img/aak.png"></img>
+					<img class="sign__icon subtraction" src="/img/aai.png"></img>
+					<img class="sign__icon multiplication" src="/img/aam.png"></img>
+					<img class="sign__icon divide" src="/img/aag.png"></img>
+				</div>
+
+				<div class="main__aside__circle-black circle circle-black"></div>
+				<div class="main__aside__circle-blue-bg circle-blue-bg"></div>
+
+				<section class="main__aside__industries">
+					<h3 class="aside__heading">Wybierz swoją branżę i poznaj urządzenia</h3>
+					<ul class="main__aside__list main__aside__list--industries">
+					</ul>
+				</section>
+				<section class="main__aside__guide">
+					<h3 class="aside__heading">Poradnik</h3>
+					<ul class="main__aside__list main__aside__list--guide">
+					</ul>
+				</section>
+
+				<section class="main__aside__guide">
+					<h3 class="aside__heading">Infromacje</h3>
+					<ul class="main__aside__list main__aside__list--info">
+					</ul>
+				</section>				
+			</aside>
 			
+			<div class="main__content">
+				<section class="main__content__promotions">
+					<h2 class="main__heading">Promocje</h2>
+					<div class="main__content__promotions-box">
+						<button class="main__content__promotions-btn--left btn btn-arrow arrow-left"></button>
+						<button class="main__content__promotions-btn--right btn btn-arrow arrow-right"></button>
+					</div>				
+				</section>
+
+				<div class="main__sings main__content__signs--top-right signs">
+					<img class="sign__icon sum" src="/img/aak.png"></img>
+					<img class="sign__icon subtraction" src="/img/aai.png"></img>
+					<img class="sign__icon multiplication" src="/img/aam.png"></img>
+					<img class="sign__icon divide" src="/img/aag.png"></img>
+				</div>
+
+				<div class="main__content__circle-black circle circle-black"></div>
+
+				<section class="main__content__products">		
+					<h2 class="main__heading">Katalog produktów</h2>
+					<div class="main__content__products-box"></div>
+				</section>
+			</div>
 		</main>
+		<div class="bg-right"></div>
 
 		<!-- <script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

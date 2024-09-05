@@ -42,3 +42,19 @@
 	bottom: -565px;
 	z-index: 4;
 }
+
+/* SIGNS IN LOGOS SECTION */
+
+.logos__sings {
+	right: -310px;
+	top: -610px;
+}
+
+.logos__sings .sign__icon {
+	width: 193px;
+}
+
+.logos__sings .sum {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}

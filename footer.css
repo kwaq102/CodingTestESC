@@ -1,0 +1,44 @@
+/* ABOUT SECTION */
+
+.about {
+	margin-top: -2rem;
+}
+
+.about__text__box {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+.about__text {
+	width: 1498px;
+	font-size: 2rem;
+	font-family: GilroyLight, sans-serif;
+}
+
+.about__text strong {
+	font-family: GilroyExtraBold, sans-serif;
+}
+
+.about__text a {
+	color: #000;
+	text-decoration: line;
+}
+
+/* SECTION LOGOS */
+
+.logos {
+	position: relative;
+	margin-bottom: 6rem;
+}
+
+.logos__box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logos__circle-transparent-black {
+	left: 1720px;
+	bottom: -565px;
+	z-index: 4;
+}

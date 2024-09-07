@@ -68,7 +68,7 @@ a {
 }
 
 .headingBasic {
-	font-family: "GilroyExtraBold", serif;
+	font-family: "GilroyExtraBold", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -304,7 +304,7 @@ a {
 }
 
 .header__circle-mid__text {
-	font-family: GilroyExtraBold, serif;
+	font-family: GilroyExtraBold, sans-serif;
 	font-size: 6.5rem;
 	text-align: center;
 }

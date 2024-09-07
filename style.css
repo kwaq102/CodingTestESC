@@ -95,6 +95,46 @@ ul {
 	z-index: -1;
 }
 
+/* NUMBERS */
+
+.number {
+	position: absolute;
+	font-size: 7.5rem;
+	opacity: 0.22;
+	color: #000;
+	font-family: GilroyExtraBold, sans-serif;
+}
+
+.number__nine {
+	position: static;
+	margin-top: 6rem;
+}
+
+.number__four {
+	top: -30px;
+	left: -170px;
+}
+
+.number__one {
+	top: 150px;
+	left: 280px;
+}
+
+.number__two {
+	top: 930px;
+	right: -260px;
+}
+
+.number__three {
+	bottom: 260px;
+	left: -100px;
+}
+
+.number__seven {
+	top: 365px;
+	left: 40px;
+}
+
 /* CIRCLES */
 
 .circle {
@@ -191,9 +231,10 @@ ul {
 	width: 45px;
 }
 
+/* HEADER */
+
 .header__wrapper {
 	position: relative;
-	/* height: 2200px; */
 	height: 1900px;
 	overflow: hidden;
 }
@@ -698,6 +739,7 @@ ul {
 }
 
 .main__content__products {
+	position: relative;
 	margin-top: 5rem;
 }
 

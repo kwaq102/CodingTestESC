@@ -1,6 +1,7 @@
 /* ABOUT SECTION */
 
 .about {
+	position: relative;
 	margin-top: -2rem;
 }
 

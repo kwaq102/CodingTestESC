@@ -618,9 +618,11 @@ a {
 /* MAIN */
 
 .main {
+	position: relative;
 	display: flex;
 	gap: 200px;
 	margin-top: -780px;
+	z-index: 2;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -729,6 +731,10 @@ a {
 	text-align: center;
 }
 
+.main__content__promotions {
+	position: relative;
+}
+
 .main__content__promotions-box {
 	position: relative;
 	display: flex;
@@ -742,26 +748,6 @@ a {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	row-gap: 5.2rem;
-}
-
-/* BUTTONS CARDS CHANGE */
-.main__content__promotions-btn--right,
-.main__content__promotions-btn--left {
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.main__content__promotions-btn--left {
-	left: -13%;
-}
-
-.main__content__promotions-btn--right {
-	right: -13%;
-}
-
-.main__content__products {
-	position: relative;
-	margin-top: 5rem;
 }
 
 /* CARDS */
@@ -805,6 +791,27 @@ a {
 	bottom: -23px;
 	right: -40px;
 }
+
+/* BUTTONS SLIDER */
+.main__content__promotions-btn--right,
+.main__content__promotions-btn--left {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.main__content__promotions-btn--left {
+	left: -13%;
+}
+
+.main__content__promotions-btn--right {
+	right: -13%;
+}
+
+.main__content__products {
+	position: relative;
+	margin-top: 5rem;
+}
+
 /* ------------------------------------------------------------------------ */
 /* SIGNS IN MAIN */
 

@@ -206,6 +206,7 @@ const produtsPromotionsList = [
 		href: "#",
 		price: 1429,
 		iconSrc: "/img/products/aky.png",
+		className: "slider-item",
 	},
 	{
 		name: "Posnet Thermal HD Online",
@@ -213,6 +214,7 @@ const produtsPromotionsList = [
 		href: "#",
 		price: 1429,
 		iconSrc: "/img/products/aky.png",
+		className: "slider-item",
 	},
 	{
 		name: "Kasoterminal POSPAY2 Online",
@@ -220,6 +222,7 @@ const produtsPromotionsList = [
 		href: "#",
 		price: 1429,
 		iconSrc: "/img/products/aky.png",
+		className: "slider-item",
 	},
 ];
 
@@ -236,6 +239,10 @@ const boxCardsInPromotions = document.querySelector(
 const boxCardsInProducts = document.querySelector(
 	".main__content__products-box"
 );
+
+// BUTTONS SLIDER
+const btnSliderLeft = document.querySelector(".btn-slider-left");
+const btnSliderRight = document.querySelector(".btn-slider-right");
 
 // CREATING LISTS IN ASIDE
 
@@ -263,7 +270,8 @@ createListInAside(infoList, asideInfoListList);
 const createCards = (cardList, boxForCardsFromDom) => {
 	cardList.forEach(el => {
 		const aEl = document.createElement("a");
-		aEl.setAttribute("class", "card");
+		aEl.setAttribute("class", el.className ? "card slider-item" : "card");
+
 		aEl.setAttribute("href", el.href);
 
 		const h4El = document.createElement("h4");
@@ -296,4 +304,5 @@ const createCards = (cardList, boxForCardsFromDom) => {
 };
 
 createCards(produtsPromotionsList, boxCardsInPromotions);
+
 createCards(produtsList, boxCardsInProducts);

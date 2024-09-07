@@ -271,12 +271,12 @@ const createCards = (cardList, boxForCardsFromDom) => {
 		h4El.textContent = el.name;
 
 		const imgEl = document.createElement("img");
-		imgEl.setAttribute("class", "card__img");
+		imgEl.setAttribute("class", "card__img absoluteCenter");
 		imgEl.setAttribute("src", el.imgSrc);
 		imgEl.setAttribute("alt", el.name);
 
 		const pEl = document.createElement("p");
-		pEl.setAttribute("class", "card__price");
+		pEl.setAttribute("class", "card__price flexCenter");
 		pEl.textContent = `OD ${el.price} zł`;
 
 		aEl.appendChild(h4El);
